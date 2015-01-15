@@ -1,5 +1,6 @@
 <?php
-namespace Fersoftware;
+namespace Fersoftware\Form;
+
 use Fersoftware\Interfaces\FormInterface;
 use Fersoftware\Element;
 

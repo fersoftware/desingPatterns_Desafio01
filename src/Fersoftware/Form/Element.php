@@ -1,5 +1,5 @@
 <?php
-namespace Fersoftware;
+namespace Fersoftware\Form;
 use Fersoftware\Interfaces\ElementInterface;
 
 class Element implements ElementInterface

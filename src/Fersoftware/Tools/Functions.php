@@ -1,6 +1,6 @@
 <?php
 namespace Fersoftware\Tools;
-use Fersoftware\Element;
+use Fersoftware\Form\Element;
 class Functions
 {
     public  static function newElement($id,$label,$name,$placeholder,$element,$type)
