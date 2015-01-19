@@ -9,15 +9,6 @@ ini_set('display_errors', true);
 error_reporting(E_ALL | E_STRICT);
 
 require_once '../vendor/autoload.php';
-
-//echo str_replace('public', '', getcwd()) . 'src/Fersoftware';
-
-//Pega o diretorio e elimina o \Fersoftware
-//Get the directory and delete the \Fersoftware
-define('CLASS_DIR',str_replace('public', '', getcwd()));
-set_include_path(CLASS_DIR. 'src/Fersoftware/');
-spl_autoload_register();
-
 use Fersoftware\Interfaces\ElementInterface;
 use Fersoftware\Interfaces\FormInterface;
 use Fersoftware\Form\Element;
@@ -43,7 +34,8 @@ if($method == 'POST')
     </div>
 <?php
 }
-//REINDENIZACAO DO FORMULARIO
+//RENDERIZACAO DO FORMULARIO
+//RENDER THE FORM
 $addForm->render($arrForm);
 
 include_once('../src/Fersoftware/Pages/footer.php');
