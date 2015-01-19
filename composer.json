@@ -4,6 +4,5 @@
 		"psr-4" : {
 			"Fersoftware\\":"src/Fersoftware/"
 		}
-
 	}
 }
