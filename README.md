@@ -2,9 +2,8 @@
 
 CURSO PHP DE DESING PATTERNS - DESAFIO 01
 ---------------------------------------
-cd src <br>
-cd Fersoftware <br>
-php -S 127.0.0.1:8020
+cd Desafio1 <br>
+php -S 127.0.0.1:8020 -t public/
 ----------------------------------------
 Formulário básico<br>
 
