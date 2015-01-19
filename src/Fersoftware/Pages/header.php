@@ -14,7 +14,7 @@ body {
     </style>
 <?php echo getcwd()  ?>
     <link href="../src/Fersoftware/css/bootstrap-responsive.css" rel="stylesheet"/>
-    <link href="../css/docs.css" rel="stylesheet"/>
+    <link href="../../../public/assets/css/docs.css" rel="stylesheet"/>
     <script src="../../app/assets/js/src/jquery-latest.js"></script>
     <script src="../../app/assets/js/jquery.js"></script>
     <script src="../../app/assets/js/bootstrap-alert.js"></script>
