@@ -6,18 +6,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <meta name="description" content="Aula1 Desing Partters PHP - Desafio1 "/>
     <meta name="author" content="fersoftware"/>
-    <link href="../src/Fersoftware/css/bootstrap.css" rel="stylesheet"/>
+    <link href="../public/assets/css/bootstrap.css" rel="stylesheet"/>
     <style>
 body {
     padding-top: 60px; /* 60px to make the container go all the way to the bottom of the topbar */
         }
     </style>
-<?php echo getcwd()  ?>
-    <link href="../src/Fersoftware/css/bootstrap-responsive.css" rel="stylesheet"/>
-    <link href="../../../public/assets/css/docs.css" rel="stylesheet"/>
-    <script src="../../app/assets/js/src/jquery-latest.js"></script>
-    <script src="../../app/assets/js/jquery.js"></script>
-    <script src="../../app/assets/js/bootstrap-alert.js"></script>
+    <link href="../public/assets/css/bootstrap-responsive.css" rel="stylesheet"/>
+    <link href="../public/assets/css/docs.css" rel="stylesheet"/>
+    <script src="../public/assets/js/src/jquery-latest.js"></script>
+    <script src="../public/assets/js/jquery.js"></script>
+    <script src=".../public/assets/js/bootstrap-alert.js"></script>
 </head>
 <body data-spy="scroll" data-target=".bs-docs-sidebar" data-twttr-rendered="true" class="">
 <div class="navbar navbar-inverse navbar-fixed-top">
